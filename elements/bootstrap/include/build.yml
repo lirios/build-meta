@@ -1,0 +1,10 @@
+(@): elements/bootstrap/include/arch.yml
+
+variables:
+  build-triplet: '%{bootstrapper-triplet}'
+  host-triplet: '%{bootstrapper-triplet}'
+
+environment:
+  CFLAGS:  "%{build_flags}"
+  CXXFLAGS: "%{build_flags}"
+  LDFLAGS:  "%{ldflags_defaults}"

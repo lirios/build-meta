@@ -1,0 +1,12 @@
+sources:
+- kind: git_tag
+  url: sourceware:glibc.git
+  track: release/2.31/master
+  track-tags: false
+  ref: glibc-2.31-54-g6fdf971c9dbf7dac9bea552113fe4694015bbc4d
+- kind: patch
+  path: patches/glibc/optimize-audit.patch
+- kind: patch
+  path: patches/glibc/locale-C.diff
+- kind: patch
+  path: patches/glibc/fix-dl-dst-lib.patch

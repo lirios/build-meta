@@ -1,0 +1,12 @@
+# This is for components/mesa-headers.bst. For the drivers,
+# see elements/extensions/mesa/mesa.bst
+public:
+  cpe:
+    product: mesa
+    vendor: mesa3d
+
+sources:
+- kind: git_tag
+  url: freedesktop:mesa/mesa.git
+  track: '20.1'
+  ref: mesa-20.1.5-0-g3ba7f954b8a4ca6a8754fec06b8c0d179f2db64a

@@ -1,0 +1,11 @@
+# Ignore buildstream local state directories
+.bst
+
+# Ignore caches
+__pycache__
+
+# Ignore local testing
+repo/
+
+# Ignore additional modules
+bst-external/
